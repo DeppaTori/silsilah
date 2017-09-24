@@ -11,7 +11,7 @@ class Config {
         return array(
             "PATH_ADMINTHEME" =>"public/matrixadmin/",
             "KATA_RAHASIA"=> getenv("SOLATA_RAHASIA"),
-            "BLOG_ADMIN"=>"http://localhost:50/keluargaku/blog/wp-admin/index.php"
+            "BLOG_ADMIN"=>getenv("SIL_WP_ADMIN_URL")
         );
     }
     
